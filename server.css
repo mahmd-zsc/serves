@@ -1,0 +1,250 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: solid;
+  list-style-type: none;
+  color: black;
+  text-transform: capitalize;
+  line-height: 30px;
+}
+.container {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-rows: minmax(50px, auto);
+}
+.container p {
+  color: rgba(0, 0, 0, 0.673);
+}
+
+.box {
+  background-color: aliceblue;
+}
+/* -------------------------------------------------------------------------------------------- */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+}
+.H {
+  display: flex;
+  margin: 0 110px;
+}
+h1 {
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: -1px;
+}
+ul li {
+  margin-left: 20px;
+}
+ul a {
+  color: rgba(0, 0, 0, 0.673);
+}
+
+/* -------------------------------------------------------------------------------------------- */
+.introduction {
+  display: flex;
+  flex-direction: column;
+  background-color: #f6f6f6;
+}
+.I {
+  display: flex;
+  justify-content: center;
+}
+.introduction .first {
+  margin-top: 50px;
+}
+.first h2 {
+  font-size: 30px;
+  font-weight: revert;
+}
+.first h2 span {
+  color: #03a9f4;
+}
+.introduction .secound {
+  margin: 10px 110px 50px 110px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.secound p {
+  line-height: 30px;
+  color: rgba(0, 0, 0, 0.673);
+}
+/* -------------------------------------------------------------------------------------------- */
+.Features {
+  display: flex;
+  background-color: white;
+  justify-content: center;
+}
+.F {
+  text-align: center;
+}
+.design {
+  margin: 50px 30px 50px 110px;
+}
+.price {
+  margin: 50px 30px 50px 30px;
+}
+.perfomance {
+  margin: 50px 110px 50px 30px;
+}
+.F img {
+  width: 80px;
+  height: 80px;
+}
+.F p {
+  font-size: small;
+}
+.F h3 {
+  font-weight: bolder;
+}
+/* -------------------------------------------------------------------------------------------- */
+.about {
+  background-color: #f6f6f6;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+.about img {
+  width: 2, 183;
+  height: 300px;
+}
+.imgz {
+  margin: 50px 5px 50px 110px;
+}
+.text {
+  margin: 50px 110px 50px 5px;
+}
+
+.text p {
+  margin-top: 37px;
+}
+/* -------------------------------------------------------------------------------------------- */
+.numbers {
+  display: flex;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+}
+.numbers .N {
+  width: 350px;
+  height: 120px;
+
+  margin: 50px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.one {
+  background-color: #b33939;
+}
+.two {
+  background-color: #227093;
+}
+.three {
+  background-color: #218c74;
+}
+
+.N .num {
+  font-size: 50px;
+  font-weight: bold;
+
+  margin-bottom: 10px;
+}
+.N p {
+  color: white;
+}
+/* -------------------------------------------------------------------------------------------- */
+.skills {
+  background-color: #f6f6f6;
+}
+.skills h2 {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.skills .names {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.skills p {
+  margin-bottom: 20px;
+  color: black;
+  font-weight: 600;
+}
+.skills .rate div {
+  width: 1026px;
+  height: 30px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  position: relative;
+}
+.programes {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.skills .one {
+  background-color: #03a9f4;
+}
+.skills .two {
+  background-color: #03a9f4;
+}
+.skills .three {
+  background-image: linear-gradient(
+    to right,
+
+    #03a9f4 5%,
+    white 5%
+    
+  );
+}
+.skills .four {
+background-color: white;
+}
+.skills .five {
+  background-image: linear-gradient(
+    to right,
+
+    #03a9f4 80%,
+    #ffffff 80%
+  );
+}
+.skills .rate p {
+  color: white;
+  position: absolute;
+}
+.skills .one p {
+  left: 95.5%;
+}
+.skills .two p {
+  left: 95.5%;
+}
+.skills .three p {
+  left: 2.5%;
+}
+.skills .four p {
+  left: 1;
+}
+.skills .five p {
+  left: 76.5%;
+}
+/* -------------------------------------------------------------------------------------------- */
+.footer {
+  background-color: #333333;
+
+  display: flex;
+  justify-content: space-between;
+}
+.footer p {
+  color: white;
+  margin: 10px 190px;
+}
+.footer span {
+  color: #03a9f4;
+}
